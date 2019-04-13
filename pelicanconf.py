@@ -38,3 +38,5 @@ MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATHS = './plugins'
 PLUGINS = ['ipynb.markup']
+
+THEME = '/Users/aimonallouache/Documents/Georgia_Tech/Spring_2019/CS6242/GroupProject/pelican-themes/attila'
