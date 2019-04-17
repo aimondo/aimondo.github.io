@@ -21,4 +21,4 @@ DELETE_OUTPUT_DIRECTORY = True
 # Following items are often useful when publishing
 
 DISQUS_SITENAME = "https://seaminglyaccurate.disqus.com"
-#GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS = "UA-138396556-1"
