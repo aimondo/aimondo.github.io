@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Team89'
 SITENAME = 'SeaminglyAccurate'
-SITEURL = 'seaminglyaccurate.io'
+SITEURL = ''
 FAVICON = "/images/favicon.png"
 
 PATH = 'content'
