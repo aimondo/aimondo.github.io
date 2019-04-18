@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>SeaminglyAccurate</title><link href="/" rel="alternate"></link><link href="/feeds/posts.atom.xml" rel="self"></link><id>/</id><updated>2019-04-15T01:00:00-05:00</updated><entry><title>POTD | Our Strategy</title><link href="/potd-strategy.html" rel="alternate"></link><published>2019-04-15T01:00:00-05:00</published><updated>2019-04-15T01:00:00-05:00</updated><author><name>Team89</name></author><id>tag:,2019-04-15:potd-strategy.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>SeaminglyAccurate</title><link href="seaminglyaccurate.io/" rel="alternate"></link><link href="seaminglyaccurate.io/feeds/posts.atom.xml" rel="self"></link><id>seaminglyaccurate.io/</id><updated>2019-04-15T01:00:00-05:00</updated><entry><title>POTD | Our Strategy</title><link href="seaminglyaccurate.io/potd-strategy.html" rel="alternate"></link><published>2019-04-15T01:00:00-05:00</published><updated>2019-04-15T01:00:00-05:00</updated><author><name>Team89</name></author><id>tag:,2019-04-15:seaminglyaccurate.io/potd-strategy.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1151,7 +1151,7 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</summary><category term="strategy"></category><category term="potd"></category></entry><entry><title>What are we all about?</title><link href="/seamingly-accurate-summary.html" rel="alternate"></link><published>2019-04-12T18:05:00-05:00</published><updated>2019-04-12T18:05:00-05:00</updated><author><name>Team89</name></author><id>tag:,2019-04-12:seamingly-accurate-summary.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+</summary><category term="strategy"></category><category term="potd"></category></entry><entry><title>What are we all about?</title><link href="seaminglyaccurate.io/seamingly-accurate-summary.html" rel="alternate"></link><published>2019-04-12T18:05:00-05:00</published><updated>2019-04-12T18:05:00-05:00</updated><author><name>Team89</name></author><id>tag:,2019-04-12:seaminglyaccurate.io/seamingly-accurate-summary.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
