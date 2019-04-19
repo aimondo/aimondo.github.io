@@ -1183,10 +1183,16 @@ h6:hover .anchor-link {
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[1]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[4]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;[[&amp;#39;Martin Prado&amp;#39;, 0.344], [&amp;#39;Gerardo Parra&amp;#39;, 0.311], [&amp;#39;Andrelton Simmons&amp;#39;, 0.304], [&amp;#39;Jose Abreu&amp;#39;, 0.302]]&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;top_picks&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pd&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;DataFrame&lt;/span&gt;&lt;span class="p"&gt;([[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Martin Prado&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.344&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; 
+ &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Gerardo Parra&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.311&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; 
+ &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Andrelton Simmons&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.304&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; 
+ &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Jose Abreu&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.302&lt;/span&gt;&lt;span class="p"&gt;]],&lt;/span&gt; &lt;span class="n"&gt;columns&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Player&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Probability&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+
+&lt;span class="n"&gt;top_picks_table&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;ff&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;create_table&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;top_picks&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;py&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;iplot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;top_picks_table&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;filename&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;potd-overall-4-19-19&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;/div&gt;
@@ -1199,13 +1205,14 @@ h6:hover .anchor-link {
 
 &lt;div class="output_area"&gt;
 
-&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="prompt output_prompt"&gt;Out[4]:&lt;/div&gt;
 
 
-&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
-&lt;pre&gt;[[&amp;#39;Martin Prado&amp;#39;, 0.344], [&amp;#39;Gerardo Parra&amp;#39;, 0.311], [&amp;#39;Andrelton Simmons&amp;#39;, 0.304], [&amp;#39;Jose Abreu&amp;#39;, 0.302]]
-&lt;/pre&gt;
+
+&lt;div class="output_html rendered_html output_subarea output_execute_result"&gt;
+&lt;iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AimonAllouache/34.embed" height="200px" width="100%"&gt;&lt;/iframe&gt;
 &lt;/div&gt;
+
 &lt;/div&gt;
 
 &lt;/div&gt;
@@ -8057,4 +8064,6 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</summary><category term="python"></category></entry></feed>
+</summary><category term="python"></category></entry><entry><title>Headlines, Blockquotes &amp; Images</title><link href="https://seaminglyaccurate.io/embed-chart.html" rel="alternate"></link><published>2015-11-01T01:25:00-06:00</published><updated>2015-11-01T01:25:00-06:00</updated><author><name>Team89</name></author><id>tag:seaminglyaccurate.io,2015-11-01:embed-chart.html</id><summary type="html">&lt;p&gt;Hello there here are some things I would like to share. Hello there here are some things I would like to share. Hello there here are some things I would like to share. Hello there here are some things I would like to share. Hello there here are some things I would like to share.&lt;/p&gt;
+&lt;p&gt;&amp;lt;div&amp;gt;&amp;lt;a href=&amp;quot;&lt;a class="reference external" href="https://plot.ly/~AimonAllouache/22/?share_key=ngtEr2LG3axYtWPZAJhv4g"&gt;https://plot.ly/~AimonAllouache/22/?share_key=ngtEr2LG3axYtWPZAJhv4g&lt;/a&gt;&amp;quot; target=&amp;quot;_blank&amp;quot; title=&amp;quot;potd-lr-performance-04-17-19&amp;quot; style=&amp;quot;display: block; text-align: center;&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;&lt;a class="reference external" href="https://plot.ly/~AimonAllouache/22.png?share_key=ngtEr2LG3axYtWPZAJhv4g"&gt;https://plot.ly/~AimonAllouache/22.png?share_key=ngtEr2LG3axYtWPZAJhv4g&lt;/a&gt;&amp;quot; alt=&amp;quot;potd-lr-performance-04-17-19&amp;quot; style=&amp;quot;max-width: 100%;width: 600px;&amp;quot;  width=&amp;quot;600&amp;quot; onerror=&amp;quot;this.onerror=null;this.src='&lt;a class="reference external" href="https://plot.ly/404.png"&gt;https://plot.ly/404.png&lt;/a&gt;';&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;script data-plotly=&amp;quot;AimonAllouache:22&amp;quot; sharekey-plotly=&amp;quot;ngtEr2LG3axYtWPZAJhv4g&amp;quot; src=&amp;quot;https://plot.ly/embed.js&amp;quot; async&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+</summary><category term="potd"></category></entry></feed>

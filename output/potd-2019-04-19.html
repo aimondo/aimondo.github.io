@@ -1298,10 +1298,16 @@ h6:hover .anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;[[&#39;Martin Prado&#39;, 0.344], [&#39;Gerardo Parra&#39;, 0.311], [&#39;Andrelton Simmons&#39;, 0.304], [&#39;Jose Abreu&#39;, 0.302]]&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">top_picks</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([[</span><span class="s1">&#39;Martin Prado&#39;</span><span class="p">,</span> <span class="mf">0.344</span><span class="p">],</span> 
+ <span class="p">[</span><span class="s1">&#39;Gerardo Parra&#39;</span><span class="p">,</span> <span class="mf">0.311</span><span class="p">],</span> 
+ <span class="p">[</span><span class="s1">&#39;Andrelton Simmons&#39;</span><span class="p">,</span> <span class="mf">0.304</span><span class="p">],</span> 
+ <span class="p">[</span><span class="s1">&#39;Jose Abreu&#39;</span><span class="p">,</span> <span class="mf">0.302</span><span class="p">]],</span> <span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Player&#39;</span><span class="p">,</span> <span class="s1">&#39;Probability&#39;</span><span class="p">])</span>
+
+<span class="n">top_picks_table</span> <span class="o">=</span> <span class="n">ff</span><span class="o">.</span><span class="n">create_table</span><span class="p">(</span><span class="n">top_picks</span><span class="p">)</span>
+<span class="n">py</span><span class="o">.</span><span class="n">iplot</span><span class="p">(</span><span class="n">top_picks_table</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;potd-overall-4-19-19&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -1314,13 +1320,14 @@ h6:hover .anchor-link {
 
 <div class="output_area">
 
-<div class="prompt"></div>
+<div class="prompt output_prompt">Out[4]:</div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[[&#39;Martin Prado&#39;, 0.344], [&#39;Gerardo Parra&#39;, 0.311], [&#39;Andrelton Simmons&#39;, 0.304], [&#39;Jose Abreu&#39;, 0.302]]
-</pre>
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AimonAllouache/34.embed" height="200px" width="100%"></iframe>
 </div>
+
 </div>
 
 </div>

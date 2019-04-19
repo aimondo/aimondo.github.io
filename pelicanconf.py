@@ -45,8 +45,8 @@ THEME = '../pelican-themes/attila'
 AUTHORS_BIO = {
   "Team89": {
     "name": "Team89",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1e/Baseball_%28crop%29.jpg",
-    "image": "https://upload.wikimedia.org/wikipedia/en/1/1e/Baseball_%28crop%29.jpg",
+    "cover": '/assets/images/baseball-math.png',
+    "image": '/assets/images/baseball-math.png',
     "website": "http://aimondo.github.io",
     "location": "OMSCS",
     "bio": "We are a group of CSE6242 students who are trying to Beat the Streak"
@@ -66,9 +66,9 @@ IGNORE_FILES = ['.ipynb_checkpoints']
 SITEMAP = {
    'format': 'xml',
    'priorities': {
-       'articles': 0.5,
-       'indexes': 0.5,
-       'pages': 0.5
+       'articles': 0.7,
+       'indexes': 0.7,
+       'pages': 0.7
    },
    'changefreqs': {
        'articles': 'monthly',
