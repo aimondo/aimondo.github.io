@@ -38,9 +38,9 @@
   <![endif]-->
 
 
-    <link href="https://seaminglyaccurate.io/potd-2019-04-20.html" rel="canonical" />
+    <link href="https://seaminglyaccurate.io/potd-2019-04-28.html" rel="canonical" />
 
-        <meta name="description" content="Yeah it's time to double down again.">
+        <meta name="description" content="Time to double down!">
 
         <meta name="author" content="Team89">
 
@@ -56,10 +56,10 @@
 
   <meta property="og:type" content="article">
             <meta property="article:author" content="https://seaminglyaccurate.io/author/team89.html">
-  <meta property="og:url" content="https://seaminglyaccurate.io/potd-2019-04-20.html">
+  <meta property="og:url" content="https://seaminglyaccurate.io/potd-2019-04-28.html">
   <meta property="og:title" content="Pick of the Day!">
-  <meta property="article:published_time" content="2019-04-20 01:00:00-05:00">
-            <meta property="og:description" content="Yeah it's time to double down again.">
+  <meta property="article:published_time" content="2019-04-28 01:00:00-05:00">
+            <meta property="og:description" content="Time to double down!">
 
             <meta property="og:image" content="https://seaminglyaccurate.io/theme/images/baseball-math.png">
 </head>
@@ -97,7 +97,7 @@
         <!-- TODO : Proper class for headline -->
         <span class="post-meta">
                 <a href="https://seaminglyaccurate.io/author/team89.html">Team89</a>
-            | <time datetime="Sat 20 April 2019">Sat 20 April 2019</time>
+            | <time datetime="Sun 28 April 2019">Sun 28 April 2019</time>
         </span>
         <!-- TODO : Modified check -->
         
@@ -1090,7 +1090,7 @@ h6:hover .anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="POTD-(Pick-of-the-Day)---DOUBLE-DOWN!!!">POTD (Pick of the Day) - DOUBLE DOWN!!!<a class="anchor-link" href="#POTD-(Pick-of-the-Day)---DOUBLE-DOWN!!!">&#182;</a></h1><h4 id="Double-Down---Dee-Gordon-&amp;-Nicholas-Castellanos">Double Down - Dee Gordon &amp; Nicholas Castellanos<a class="anchor-link" href="#Double-Down---Dee-Gordon-&amp;-Nicholas-Castellanos">&#182;</a></h4>
+<h1 id="POTD-(Pick-of-the-Day)---DOUBLE-DOWN!!!">POTD (Pick of the Day) - DOUBLE DOWN!!!<a class="anchor-link" href="#POTD-(Pick-of-the-Day)---DOUBLE-DOWN!!!">&#182;</a></h1><h4 id="Double-Down---Carlos-Gonzalez-&amp;-Nicholas-Castellanos">Double Down - Carlos Gonzalez &amp; Nicholas Castellanos<a class="anchor-link" href="#Double-Down---Carlos-Gonzalez-&amp;-Nicholas-Castellanos">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -1098,7 +1098,7 @@ h6:hover .anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Yup! Another double down day. That's two in a row! Compared to yesterday, these picks make a lot more sense. Both are great hitters with very exploitable matchups. Here are the model outputs:</p>
+<p>Double down day. Here were the model outputs:</p>
 
 </div>
 </div>
@@ -1122,16 +1122,16 @@ h6:hover .anchor-link {
 <span class="kn">import</span> <span class="nn">plotly.graph_objs</span> <span class="k">as</span> <span class="nn">go</span>
 
 
-<span class="n">rf</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([[</span><span class="s1">&#39;Dee Gordon&#39;</span><span class="p">,</span> <span class="mf">0.284</span><span class="p">],</span> 
-                   <span class="p">[</span><span class="s1">&#39;Anthony Rizzo&#39;</span><span class="p">,</span> <span class="mf">0.283</span><span class="p">],</span> 
-                   <span class="p">[</span><span class="s1">&#39;Nicholas Castellanos&#39;</span><span class="p">,</span> <span class="mf">0.282</span><span class="p">],</span> 
-                   <span class="p">[</span><span class="s1">&#39;Josh Donaldson&#39;</span><span class="p">,</span> <span class="mf">0.282</span><span class="p">],</span> 
-                   <span class="p">[</span><span class="s1">&#39;Khris Davis&#39;</span><span class="p">,</span> <span class="mf">0.278</span><span class="p">]],</span>
+<span class="n">rf</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([[</span><span class="s1">&#39;Anthony Rizzo&#39;</span><span class="p">,</span> <span class="mf">0.286</span><span class="p">],</span> 
+                   <span class="p">[</span><span class="s1">&#39;Jason Heyward&#39;</span><span class="p">,</span> <span class="mf">0.281</span><span class="p">],</span> 
+                   <span class="p">[</span><span class="s1">&#39;Carlos Santana&#39;</span><span class="p">,</span> <span class="mf">0.28</span><span class="p">],</span> 
+                   <span class="p">[</span><span class="s1">&#39;Nicholas Castellanos&#39;</span><span class="p">,</span> <span class="mf">0.278</span><span class="p">],</span> 
+                   <span class="p">[</span><span class="s1">&#39;Carlos Gonzalez&#39;</span><span class="p">,</span> <span class="mf">0.278</span><span class="p">]],</span>
 <span class="n">columns</span><span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Player&#39;</span><span class="p">,</span> <span class="s1">&#39;Probability&#39;</span><span class="p">]</span>
 <span class="p">)</span>
 
 <span class="n">rf_table</span> <span class="o">=</span> <span class="n">ff</span><span class="o">.</span><span class="n">create_table</span><span class="p">(</span><span class="n">rf</span><span class="p">)</span>
-<span class="n">py</span><span class="o">.</span><span class="n">iplot</span><span class="p">(</span><span class="n">rf_table</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;potd-rf-4-19-20&#39;</span><span class="p">)</span>
+<span class="n">py</span><span class="o">.</span><span class="n">iplot</span><span class="p">(</span><span class="n">rf_table</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;potd-rf-4-28-19&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -1149,7 +1149,7 @@ h6:hover .anchor-link {
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AimonAllouache/36.embed" height="230px" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AimonAllouache/80.embed" height="230px" width="100%"></iframe>
 </div>
 
 </div>
@@ -1171,16 +1171,16 @@ h6:hover .anchor-link {
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lr</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([[</span><span class="s1">&#39;Dee Gordon&#39;</span><span class="p">,</span> <span class="mf">0.328</span><span class="p">],</span> 
-                   <span class="p">[</span><span class="s1">&#39;Nicholas Castellanos&#39;</span><span class="p">,</span> <span class="mf">0.31</span><span class="p">],</span> 
-                   <span class="p">[</span><span class="s1">&#39;Anthony Rizzo&#39;</span><span class="p">,</span> <span class="mf">0.305</span><span class="p">],</span> 
-                   <span class="p">[</span><span class="s1">&#39;Josh Donaldson&#39;</span><span class="p">,</span> <span class="mf">0.299</span><span class="p">],</span> 
-                   <span class="p">[</span><span class="s1">&#39;Curtis Granderson&#39;</span><span class="p">,</span> <span class="mf">0.289</span><span class="p">]],</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lr</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([[</span><span class="s1">&#39;Jose Altuve&#39;</span><span class="p">,</span> <span class="mf">0.341</span><span class="p">],</span> 
+                   <span class="p">[</span><span class="s1">&#39;Carlos Gonzalez&#39;</span><span class="p">,</span> <span class="mf">0.335</span><span class="p">],</span> 
+                   <span class="p">[</span><span class="s1">&#39;Nicholas Castellanos&#39;</span><span class="p">,</span> <span class="mf">0.328</span><span class="p">],</span> 
+                   <span class="p">[</span><span class="s1">&#39;Jason Heyward&#39;</span><span class="p">,</span> <span class="mf">0.311</span><span class="p">],</span> 
+                   <span class="p">[</span><span class="s1">&#39;Albert Pujols&#39;</span><span class="p">,</span> <span class="mf">0.303</span><span class="p">]],</span>
 <span class="n">columns</span><span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Player&#39;</span><span class="p">,</span> <span class="s1">&#39;Probability&#39;</span><span class="p">]</span>
 <span class="p">)</span>
 
 <span class="n">lr_table</span> <span class="o">=</span> <span class="n">ff</span><span class="o">.</span><span class="n">create_table</span><span class="p">(</span><span class="n">lr</span><span class="p">)</span>
-<span class="n">py</span><span class="o">.</span><span class="n">iplot</span><span class="p">(</span><span class="n">lr_table</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;potd-lr-4-19-20&#39;</span><span class="p">)</span>
+<span class="n">py</span><span class="o">.</span><span class="n">iplot</span><span class="p">(</span><span class="n">lr_table</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;potd-lr-4-28-19&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -1198,7 +1198,7 @@ h6:hover .anchor-link {
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AimonAllouache/38.embed" height="230px" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AimonAllouache/82.embed" height="230px" width="100%"></iframe>
 </div>
 
 </div>
@@ -1211,8 +1211,7 @@ h6:hover .anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>As you can see, both models agree on Dee Gordon as the top pick. Both models also agree on the top four players. I'm glad that the program didn't pick Rizzo against Greinke. Greinke has certainly been attackable as of late, but he is a great pitcher who typically doesn't give up a lot of hits.</p>
-
+<h4 id="Carlos-Gonzalez">Carlos Gonzalez<a class="anchor-link" href="#Carlos-Gonzalez">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -1220,15 +1219,9 @@ h6:hover .anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Dee-Gordon">Dee Gordon<a class="anchor-link" href="#Dee-Gordon">&#182;</a></h4>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Dee will be facing off against Trevor Cahill, whom he is 7/20 (.350) against with a handedness advantage (lefty vs. righty). The only thing that I don't like about picking Dee Gordon is that he bats ninth in the order. This just basically ensures that he will only be limited to four at-bats. Hopefully that is all he needs to advance our streak!</p>
+<p>Carlos Gonzalez will face Wade Miley. He has 9 hits in 24 at-bats (.375) and 3 of those hits went for extra bases, but that's pretty much where the good news ends. Cargo carries a handedness <em>disadvantage</em> into this matchup (lefty vs. lefty) and just isn't the same hitter he used to be. Interestingly enough, he is hitting .333 against left-handed hitters so far this season, but I expect that number to regress. On the mound, Miley has been pitching pretty well for the Astros and was good for the Brewers last year too.</p>
+<p>Cargo will likely be batting 3rd or 5th for the Indians on Sunday, but I recommend thinking twice about this pick. The program has had a pretty bad week (which we will recap in a later post) and needs some planned improvements (which we will also talk about later). This pick is very similar to the Evan Longoria pick from yesterday. They were both elite players in their prime, but the models can't see that they aren't playing like they used to. Until we train our models on a few features that help them understand this, we can't be very confident in picks like this one.</p>
+<p>With that said, our program as a whole is still expected to be significantly more accurate than random guessing or picking one of the Top4 most popular picks each day.</p>
 
 </div>
 </div>
@@ -1245,7 +1238,8 @@ h6:hover .anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Castellanos will do battle against Ervin Santana. He has hit well against him, going 9/21 (.429). Unlike Gordon, Castellanos hits second in the lineup, meaning he could see a fifth opportunity to advance our streak. The only concern that I have with taking both Gordon and Castellanos is that Gordon doesn't play until 9:07 EST, but DET plays at 1:10 EST, meaning we may not know if Gordon is in the lineup until <em>after</em> our picks are locked. If our picks are locked and Gordon doesn't play, worst case scenario is that he pinch hits and gets out, ending our streak. I think that is unlikely to happen though and I'm willing to put my streak on the line with the double down.</p>
+<p>This is a pick that I can get behind. This was supposed to be a solid pick yesterday, but got moved to today due to bad weather. Hopefully weather isn't a concern again, but be sure to monitor it leading up to the game. Below is the matchup analysis from yesterday.</p>
+<p>Castellanos will do battle against Reynaldo Lopez. He has had success against Lopez, going 9/24 (.375) with 5 extra base hits. Lopez has been horrible this month and has given up a whopping 34 hits in 25 IP. Lopez shouldn't be feared and I'm very confident in Castellanos here.</p>
 
 </div>
 </div>
@@ -1254,94 +1248,18 @@ h6:hover .anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="POTD-Strategy-To-Date-Performance">POTD Strategy To-Date Performance<a class="anchor-link" href="#POTD-Strategy-To-Date-Performance">&#182;</a></h3><p>Also, it's time to update on the performance of our pick strategy. Below is an updated chart of our streaks.</p>
-
+<h4 id="Conclusion:">Conclusion:<a class="anchor-link" href="#Conclusion:">&#182;</a></h4>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">plotly.plotly</span> <span class="k">as</span> <span class="nn">py</span>
-<span class="kn">import</span> <span class="nn">plotly.figure_factory</span> <span class="k">as</span> <span class="nn">ff</span>
-<span class="kn">import</span> <span class="nn">plotly.graph_objs</span> <span class="k">as</span> <span class="nn">go</span>
-
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([</span>
-<span class="p">[</span><span class="s1">&#39;3/28/2019&#39;</span><span class="p">,</span><span class="s1">&#39;Odubel Herrera&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;3/29/2019&#39;</span><span class="p">,</span><span class="s1">&#39;No Pick&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;3/30/2019&#39;</span><span class="p">,</span><span class="s1">&#39;No Pick&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;3/31/2019&#39;</span><span class="p">,</span><span class="s1">&#39;Trea Turner, Joey Votto&#39;</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/1/2019&#39;</span><span class="p">,</span><span class="s1">&#39;Joey Votto, Jose Peraza&#39;</span><span class="p">,</span><span class="mi">5</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/2/2019&#39;</span><span class="p">,</span><span class="s1">&#39;No Pick&#39;</span><span class="p">,</span><span class="mi">5</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/3/2019&#39;</span><span class="p">,</span><span class="s1">&#39;Carlos Santana, Andrew Benintendi&#39;</span><span class="p">,</span><span class="mi">7</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/4/2019&#39;</span><span class="p">,</span><span class="s1">&#39;Anthony Rendon, Starling Marte&#39;</span><span class="p">,</span><span class="mi">9</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/5/2019 12:00&#39;</span><span class="p">,</span><span class="s1">&#39;Justin Turner&#39;</span><span class="p">,</span><span class="mi">10</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/5/2019 20:00&#39;</span><span class="p">,</span><span class="s1">&#39;Enrique Hernandez&#39;</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/6/2019 12:00&#39;</span><span class="p">,</span><span class="s1">&#39;Joey Votto&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/6/2019 20:00&#39;</span><span class="p">,</span><span class="s1">&#39;Christian Yelich&#39;</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/7/2019&#39;</span><span class="p">,</span><span class="s1">&#39;Justin Turner, Edwin Encarnacion&#39;</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/8/2019&#39;</span><span class="p">,</span><span class="s1">&#39;No Pick&#39;</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/9/2019&#39;</span><span class="p">,</span><span class="s1">&#39;No Pick&#39;</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/10/2019&#39;</span><span class="p">,</span><span class="s1">&#39;Miguel Cabrera&#39;</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/11/2019&#39;</span><span class="p">,</span><span class="s1">&#39;No Pick&#39;</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/12/2019&#39;</span><span class="p">,</span><span class="s1">&#39;No Pick&#39;</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/13/2019&#39;</span><span class="p">,</span><span class="s1">&#39;No Pick&#39;</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/14/2019&#39;</span><span class="p">,</span><span class="s1">&#39;Jorge Polanco&#39;</span><span class="p">,</span><span class="mi">4</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/15/2019&#39;</span><span class="p">,</span><span class="s1">&#39;No Pick&#39;</span><span class="p">,</span><span class="mi">4</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/16/2019&#39;</span><span class="p">,</span><span class="s1">&#39;Whit Merrifield&#39;</span><span class="p">,</span><span class="mi">5</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/17/2019&#39;</span><span class="p">,</span><span class="s1">&#39;No Pick&#39;</span><span class="p">,</span><span class="mi">5</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/18/2019&#39;</span><span class="p">,</span><span class="s1">&#39;Miguel Cabrera&#39;</span><span class="p">,</span><span class="mi">6</span><span class="p">],</span>
-<span class="p">[</span><span class="s1">&#39;4/19/2019&#39;</span><span class="p">,</span><span class="s1">&#39;Jose Abreu, Andrelton Simmons&#39;</span><span class="p">,</span><span class="mi">8</span><span class="p">]],</span> <span class="n">columns</span><span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">,</span><span class="s1">&#39;Strategy&#39;</span><span class="p">,</span><span class="s1">&#39;Streak&#39;</span><span class="p">])</span>
-
-<span class="n">trace</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
-    <span class="n">x</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Date</span><span class="p">,</span>
-    <span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Streak</span><span class="p">,</span>
-    <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;lines+markers&#39;</span><span class="p">,</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Streak&#39;</span><span class="p">,</span>
-    <span class="n">text</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Strategy</span>
-<span class="p">)</span>
-
-<span class="n">layout</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Layout</span><span class="p">(</span>
-    <span class="n">showlegend</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-    <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Pick of the Day Strategy Performance (4/20)&#39;</span><span class="p">,</span>
-    <span class="n">yaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
-        <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Streak&#39;</span>
-    <span class="p">)</span>
-<span class="p">)</span>
-
-
-<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">trace</span><span class="p">]</span>
-
-<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">layout</span><span class="p">)</span>
-<span class="n">py</span><span class="o">.</span><span class="n">iplot</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;potd-strategy-performance-04-20-19&#39;</span><span class="p">)</span>
-</pre></div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>In conclusion, I like Castellanos, but can't recommend Cargo right now. We'll be posting again soon to recap our program performance for the past week and discuss a few features that we plan on implementing to improve our models.</p>
 
 </div>
 </div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[7]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AimonAllouache/40.embed" height="525px" width="100%"></iframe>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
  
 
@@ -1379,13 +1297,13 @@ h6:hover .anchor-link {
 
             <section class="post-info">
                 <div class="post-share">
-                    <a class="twitter" href="https://twitter.com/share?text=Pick of the Day!&amp;url=https://seaminglyaccurate.io/potd-2019-04-20.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <a class="twitter" href="https://twitter.com/share?text=Pick of the Day!&amp;url=https://seaminglyaccurate.io/potd-2019-04-28.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
                     </a>
-                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://seaminglyaccurate.io/potd-2019-04-20.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://seaminglyaccurate.io/potd-2019-04-28.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
                     </a>
-                    <a class="googleplus" href="https://plus.google.com/share?url=https://seaminglyaccurate.io/potd-2019-04-20.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <a class="googleplus" href="https://plus.google.com/share?url=https://seaminglyaccurate.io/potd-2019-04-28.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
                     </a>
                     <div class="clear"></div>
@@ -1403,12 +1321,12 @@ h6:hover .anchor-link {
                 <script type="text/javascript">
                     var disqus = 'seaminglyaccurate';
                     var disqus_shortname = 'seaminglyaccurate';
-                    var disqus_identifier = '/potd-2019-04-20.html';
-                    var disqus_url = 'https://seaminglyaccurate.io/potd-2019-04-20.html';
+                    var disqus_identifier = '/potd-2019-04-28.html';
+                    var disqus_url = 'https://seaminglyaccurate.io/potd-2019-04-28.html';
                 </script>
                 <noscript>Please enable JavaScript to view the comments.</noscript>                  
                 <section class="post-comments">
-                        <a id="show-disqus" class="post-comments-activate" data-disqus-identifier="/potd-2019-04-20.html" >Show Comments</a>
+                        <a id="show-disqus" class="post-comments-activate" data-disqus-identifier="/potd-2019-04-28.html" >Show Comments</a>
                     <div id="disqus_thread"></div>                  
                 </section>
 
