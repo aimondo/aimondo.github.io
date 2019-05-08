@@ -43,17 +43,17 @@ PLUGINS = ['ipynb.markup']
 THEME = '../pelican-themes/attila'
 
 AUTHORS_BIO = {
-  "Team89": {
-    "name": "Team89",
-    "cover": '/assets/images/baseball-math.png',
-    "image": '/assets/images/baseball-math.png',
+  "Justin Grotton": {
+    "name": "Justin Grotton",
+    "cover": 'https://seaminglyaccurate.io/images/baseball-math.png',
+    "image": 'https://seaminglyaccurate.io/images/baseball-math.png',
     "website": "http://aimondo.github.io",
     "location": "OMSCS",
-    "bio": "We are a group of CSE6242 students who are trying to Beat the Streak"
+    "bio": "I'm a computer science grad student trying to Beat the Streak!"
   }
 }
 
-HOME_COVER = '/assets/images/baseball-math.png'
+HOME_COVER = 'images/baseball-math.png'
 
 STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
