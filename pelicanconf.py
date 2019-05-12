@@ -9,7 +9,7 @@ FAVICON = "/images/favicon.png"
 
 PATH = 'content'
 
-TIMEZONE = 'America/Chicago'
+TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
 
