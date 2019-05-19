@@ -45,8 +45,8 @@ THEME = '../pelican-themes/attila'
 AUTHORS_BIO = {
   "Justin Grotton": {
     "name": "Justin Grotton",
-    "cover": 'https://seaminglyaccurate.io/images/baseball-math.png',
-    "image": 'https://seaminglyaccurate.io/images/baseball-math.png',
+    "cover": '/assets/images/baseball-math.png',
+    "image": '/assets/images/baseball-math.png',
     "website": "http://aimondo.github.io",
     "location": "OMSCS",
     "bio": "I'm a computer science grad student trying to Beat the Streak!"
@@ -54,6 +54,7 @@ AUTHORS_BIO = {
 }
 
 HOME_COVER = '/assets/images/baseball-math.png'
+HOME_COLOR = 'silver'
 
 STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
