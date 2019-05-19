@@ -53,7 +53,7 @@ AUTHORS_BIO = {
   }
 }
 
-HOME_COVER = 'images/baseball-math.png'
+HOME_COVER = '/assets/images/baseball-math.png'
 
 STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
