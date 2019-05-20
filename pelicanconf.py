@@ -53,7 +53,7 @@ AUTHORS_BIO = {
   }
 }
 
-HOME_COVER = '/assets/images/baseball-math.png'
+# HOME_COVER = '/assets/images/baseball-math.png'
 HOME_COLOR = 'silver'
 
 STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico']
